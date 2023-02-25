@@ -6,7 +6,6 @@ The idea is taken from [the ggplot2 book](https://ggplot2-book.org/extensions.ht
 Only one dependency of the `ggplot2` package.
 
 ```r
-install.packages('ggplot2')
 remotes::install_github("polkas/multigeom")
 ```
 
