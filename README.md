@@ -16,6 +16,8 @@ library(multigeom)
 
 ## `geom_forest`
 
+`GeomErrorbarh` and `GeomPoint`
+
 ```r
 df <- data.frame(x = 1:10, y = 1:10, xmin = -2 * 2:11, xmax = 2 * 2:11)
 ggplot(
@@ -28,6 +30,8 @@ ggplot(
 ![](man/figures/geom_forest.png)
 
 ## `geom_barbell`
+
+`GeomSegment` and `GeomPoint`
 
 ```r
 df <- data.frame(x = 1:10, xend = 0:9, y = 0, yend = 1:10)
